@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  font-family: monospace;
+}
+
+.container {
+  display: flex;
+  width: 80vw;
+  max-width: 1200px;
+}
+
+.numbers {
+  display: flex;
+}
+
+.panel {
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1rem;
+  margin-left: 3rem;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.2rem 0.2rem;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 1rem;
+  font-size: 200%;
+  display: flex;
+  justify-content: center;
+  border: 5px solid;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 1rem;
+  font-size: 200%;
+}
